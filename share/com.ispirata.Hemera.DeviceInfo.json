@@ -1,0 +1,65 @@
+{
+   "interface": "com.ispirata.Hemera.DeviceInfo",
+   "version_major": 1,
+   "version_minor": 0,
+   "type": "properties",
+   "quality": "producer",
+   "mappings": [
+       {
+           "path": "/system/info/applianceName",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/boardName",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/hardwareId",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/applianceId",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/installedApps",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/isProductionBoard",
+           "type": "boolean"
+       },
+       {
+           "path": "/system/info/hasBuildEnvironment",
+           "type": "boolean"
+       },
+       {
+           "path": "/system/info/stars",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/architecture",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/hemeraRelease",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/cpuFlags",
+           "type": "string"
+       },
+       {
+           "path": "/system/info/cpuFrequency",
+           "type": "integer"
+       },
+       {
+           "path": "/system/info/availableCores",
+           "type": "integer"
+       },
+       {
+           "path": "/system/info/totalMemory",
+           "type": "integer"
+       }
+   ]
+}
